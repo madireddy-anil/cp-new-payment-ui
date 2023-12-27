@@ -1,0 +1,56 @@
+{
+  "dev": {
+    "ENVIRONMENT": "dev",
+    "AUTH0_CLIENT_ID": {
+      "type": "ssm",
+      "value": "/FE/AUTH0_CLIENT_ID"
+    },
+    "AUTH0_AUDIENCE": "https://cc-api.tst.payconstruct.com",
+    "AUTH0_DOMAIN": "tst-client-connect.eu.auth0.com",
+    "AUTH0_REDIRECTION_URL": "https://new-payment.tst.getorbital.com/verify-authorization",
+    "AUTH0_SCOPE": "openid profile email address phone offline_access enroll read:authenticators remove:authenticators",
+    "AUTH0_REVOKE_TOKEN_API_URL": "https://cc-token.tst.getorbital.com",
+    "LOGOUT_URL": "https://new-payment.tst.getorbital.com/login",
+    "GRAPHQL_WEBSOCKET_URL": "wss://pay.tst.getorbital.com/graphql",
+    "GRAPHQL_HTTP_URL": "https://pay.tst.getorbital.com/graphql",
+    "REACT_APP_PAYMENT_API_URL": "https://pay-engine.tst.getorbital.com/payments",
+    "REGION": "eu-west-1",
+    "STORAGE_SECRET_KEY": "paymentUIKeyTST"
+  },
+  "tst": {
+    "ENVIRONMENT": "tst",
+    "AUTH0_CLIENT_ID": {
+      "type": "ssm",
+      "value": "/FE/AUTH0_CLIENT_ID"
+    },
+    "AUTH0_AUDIENCE": "https://cc-api.tst.payconstruct.com",
+    "AUTH0_DOMAIN": "tst-client-connect.eu.auth0.com",
+    "AUTH0_REDIRECTION_URL": "https://new-payment.tst.getorbital.com/verify-authorization",
+    "AUTH0_SCOPE": "openid profile email address phone offline_access enroll read:authenticators remove:authenticators",
+    "AUTH0_REVOKE_TOKEN_API_URL": "https://cc-token.tst.getorbital.com",
+    "LOGOUT_URL": "https://new-payment.tst.getorbital.com/login",
+    "GRAPHQL_WEBSOCKET_URL": "wss://pay.tst.getorbital.com/graphql",
+    "GRAPHQL_HTTP_URL": "https://pay.tst.getorbital.com/graphql",
+    "REACT_APP_PAYMENT_API_URL": "https://pay-engine.tst.getorbital.com/payments",
+    "REGION": "eu-west-1",
+    "STORAGE_SECRET_KEY": "paymentUIKeyTST"
+  },
+  "prd": {
+    "ENVIRONMENT": "prd",
+    "AUTH0_CLIENT_ID": {
+      "type": "ssm",
+      "value": "/FE/AUTH0_CLIENT_ID"
+    },
+    "AUTH0_AUDIENCE": "https://cc-api.prd.payconstruct.com",
+    "AUTH0_DOMAIN": "auth.getorbital.com",
+    "AUTH0_REDIRECTION_URL": "https://new-payment.getorbital.com/verify-authorization",
+    "AUTH0_SCOPE": "openid profile email address phone offline_access enroll read:authenticators remove:authenticators",
+    "AUTH0_REVOKE_TOKEN_API_URL": "https://cc-token.getorbital.com",
+    "LOGOUT_URL": "https://new-payment.getorbital.com/login",
+    "STORAGE_SECRET_KEY": "paymentUIKeyTST",
+    "GRAPHQL_HTTP_URL": "https://pay.prd.getorbital.com/graphql",
+    "GRAPHQL_WEBSOCKET_URL": "wss://pay.prd.getorbital.com/graphql",
+    "REACT_APP_PAYMENT_API_URL": "https://pay-engine.getorbital.com/payments",
+    "REGION": "eu-west-1"
+  }
+}
